@@ -1,0 +1,30 @@
+@font-face{
+
+	font-family: "timeless";
+	src: url(../fonts/Timeless.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+#jumbo-land{
+	height: 100vh;
+	/*background-image: url(../assets/images/nitro5bg.jpg);*/
+	padding-top: 32%;
+	/*background-color: white; */
+	/*background-image: url(https://static.acer.com/up/Resource/Acer/Laptops/Nitro_5/Overview/20190401/NITRO_5_AN515-54_hero_large.jpg);*/
+	background-image: url(../assets/images/img11.jpg);
+	background-size: cover;
+	border-radius: 0; /*removes jumbo tron's rounded corners*/
+	/*border: 2px solid yellow;*/
+}/*End landing*/
+
+
