@@ -27,13 +27,51 @@
 	/*border: 2px solid yellow;*/
 }/*End landing*/
 
-#border{
+/*#border{
 	border: 5px solid red;
-}
+}*/
 
 
 .imghome {
-	width: 100%
+	width: 100%;
+	display:inline-block;
+}
+
+.inblock{
+	display: inline-block;
+	
+}
+
+.main{
+	
+	width: 49%;
+	height: 100%;
+	display: inline-block;
+	/*border: 5px solid blue;*/
+	position: absolute;
+}
+
+.main1{
+	margin-left:-1%;
+	width: 45%;
+	display: inline-block;
+	/*position: absolute;*/
+
+}
+
+.submain{
+	width: 100%;
+	
+	/*border: 5px solid yellow;*/
+}
+
+
+
+.tile {
+	margin-top: 2%;
+	width: 30%;
+	display:inline-block;
+	
 }
 
 p{
