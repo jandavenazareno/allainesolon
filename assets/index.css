@@ -12,6 +12,10 @@
 
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 
 
 
@@ -67,6 +71,7 @@
 }
 
 .submain{
+	text-align: center;
 	/*height: 100%;*/
 	width: 100%;
 	/*border: 5px solid yellow;*/
@@ -75,6 +80,7 @@
 
 
 .tile {
+
 	margin-top: 1%;
 	/*height: 1%;*/
 	width: 43%;
@@ -94,13 +100,59 @@ p{
 
 /*mobile styles*/
 @media only screen and (max-width:400px){
+	#row{
+		margin: 0 auto;
+		width: 100%;
+		display: block;
+	}
+
+	.main{
 	
+	height: 100%;
+	width: 100%;
+	
+	/*border: 5px solid blue;*/
+	
+	}
+
+	.main1{
+	
+	/*height: 50%;*/
+	width: 100%;
+	display: inline-block;
+	/*position: absolute;*/
+
+	}
+
+
 
 }
 
 /*tablet styles*/
 @media only screen and (min-width: 401px) and (max-width: 960px){
+	#row{
+		margin: 0 auto;
+		width: 100%;
+		display: block;
+		border: 2px solid green;
+	}
+
+	.main{
 	
+	height: 100%;
+	width: 100%;
+	
+	/*border: 5px solid blue;*/
+	
+	}
+
+	.main1{
+	
+	width: 100%;
+	display: inline-block;
+	/*position: absolute;*/
+
+	}
 
 }
 
