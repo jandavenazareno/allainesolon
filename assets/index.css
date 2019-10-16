@@ -32,7 +32,8 @@ html{
 }/*End landing*/
 
 #border{
-	border: 5px solid red;
+	/*border: 5px solid red;*/
+	margin-left: 20%
 
 }
 
@@ -173,7 +174,9 @@ p{
 
 	}
 
-
+	#border{
+		margin-left: 0%;
+	}
 
 }
 
@@ -201,6 +204,10 @@ p{
 	display: inline-block;
 	/*position: absolute;*/
 
+	}
+
+	#border{
+		margin-left: 0%;
 	}
 
 }
